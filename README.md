@@ -79,6 +79,3 @@ It does **not** serve as:
 
 Most material will be published **after completion**.
 
----
-
-## Planned structure (post-expedition)
