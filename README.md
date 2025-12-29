@@ -79,3 +79,6 @@ It does **not** serve as:
 
 Most material will be published **after completion**.
 
+Contact:
+fieldwalk.data@gmail.com
+
