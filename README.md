@@ -154,3 +154,5 @@ GPS accuracy reflects consumer-grade devices
 The dataset represents a single subject and perspective
 
 These characteristics are inherent to the dataset’s real-world scope and should be considered in downstream use.
+
+Contact:fieldwalk.data@gmail.com
