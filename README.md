@@ -2,7 +2,7 @@ Long-Horizon Human Locomotion and Egocentric Navigation Dataset
 
 (South America, longitudinal, real-world)
 
-Abstract
+Overview
 
 This repository documents a long-duration, real-world dataset of human locomotion and egocentric navigation collected during a continuous on-foot journey across South America.
 The dataset emphasizes temporal consistency, spatial grounding, and verification robustness under unconstrained environmental conditions, including rural roads, deserts, semi-urban areas, and variable weather.
