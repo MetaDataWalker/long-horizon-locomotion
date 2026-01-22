@@ -93,7 +93,7 @@ Surface type
 
 Weather conditions
 
-Water carried (start / end)
+Infrastructure
 
 Subjective fatigue rating
 
