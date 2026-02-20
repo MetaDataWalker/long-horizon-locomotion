@@ -1,6 +1,6 @@
 This dataset captures long-horizon egocentric locomotion, beginning in Santa Marta, Colombia, using a terrain- and state-triggered capture paradigm.
 
-Video segments are recorded only when meaningful transitions occur, such as changes in terrain geometry, surface composition, weather conditions, or physiological state — and where allowed due to power availability.
+Video segments are recorded only when meaningful transitions occur, such as changes in terrain geometry, surface composition, weather conditions, or physiological state.
 
 All footage is forward-facing, silent, and uncompressed, providing clean visual input optimized for computer vision, robotics, and machine learning research.
 
