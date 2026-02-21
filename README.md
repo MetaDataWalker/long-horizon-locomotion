@@ -1,4 +1,4 @@
-Long-Horizon Egocentric Locomotion Dataset
+EmbodiedLab is a Long-Horizon Egocentric Locomotion Dataset
 TL;DR — Key Signals
 
 ✓ Single-person, fully documented expedition — complete traceability, auditable provenance ✅
