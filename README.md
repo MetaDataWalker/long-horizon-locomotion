@@ -1,86 +1,71 @@
 EmbodiedLab: Long-Horizon Egocentric Locomotion Dataset
-[paragraph] TL;DR — Key Signals
-✓ Single-person, fully documented expedition — complete traceability, auditable provenance ✅
-✓ Event-driven capture — records only meaningful changes in terrain, surface, environment, or physiological state 🌄
-✓ Forward-facing, silent, uncompressed video — optimized for AI, robotics, and computer vision research 🎥
-✓ GPS-anchored segments with separate metadata — supports trajectory reconstruction, mapping, SLAM, geospatial analysis 📍
-[paragraph] Dataset Overview
-[paragraph] This dataset captures a continuous expeditionary walk through Ecuador, Peru, Chile, and Argentina, focusing on desert and arid terrain environments. It documents long-horizon egocentric locomotion with high fidelity and traceable provenance.
-[paragraph] Optimized for:
+
+TL;DR
+
+Single-person, fully documented expedition — complete traceability, auditable provenance ✅
+Event-driven capture — only meaningful terrain/environmental/subjective physiological changes recorded 🌄
+Raw forward-facing, silent, uncompressed FHD video — no in-camera optimizers, no digital stabilization 🎥
+Consistent core metadata from day one to end-of-expedition, with augmentation when terrain dictates (e.g., arid deserts, urban sprawl) 📍
+Field-generated MD5 hashes connect every file to its exact point of capture, ensuring integrity from phone → cloud → desktop ✅
+Subtle analogues to extreme planetary terrain conditions for specialized research contexts 🌑
+Dataset Overview
+This dataset captures a continuous expeditionary walk through Colombia, Ecuador, Peru, Chile, and Argentina, focusing on arid deserts, rocky passes, and urban environments. Designed for high-fidelity, traceable egocentric locomotion data, the dataset supports long-horizon modeling while preserving legal compliance and single-source provenance.
+Optimized for:
 Egocentric perception & navigation
 Long-horizon trajectory modeling
 SLAM & visual localization
 Robotics terrain traversal & planning
 Human locomotion & fatigue modeling
-[paragraph] Core principle: Event-driven recording triggers only when meaningful changes occur, producing sparse, high-information footage ideal for research and AI model training.
-[paragraph] Capture Paradigm — Event Triggers Include:
-[paragraph] - Terrain geometry transitions: flat → incline → decline, curvature changes
+
+Capture Paradigm
+Event-driven triggers include:
+Terrain geometry transitions: flat → incline → decline, curvature changes
 Surface changes: paved, dirt, sand, rocky, loose aggregate
 Environmental shifts: weather, heat, wind, visibility
-Physiological state changes: perceived fatigue, heat stress, gait adaptation (subjective observations only; no biometric sensors)
+Physiological changes: fatigue, gait adaptation (subjective only)
 Infrastructure encounters: settlements, bridges, man-made obstacles
-[paragraph] Note on the Atacama Desert: Some stretches may be vehicle-assisted or hitchhiked due to extreme terrain. All such instances are documented in metadata for full transparency and auditable provenance.
-[paragraph] Result: High-signal segments with reduced redundancy and temporally coherent sequences suitable for long-horizon modeling.
-[paragraph] Perspective & Modality
-[paragraph] - Single forward-facing camera
-No audio or narration
-Consistent egocentric viewpoint
-Pure visual input optimized for vision-based AI and robotics systems
-[paragraph] GPS Anchoring & Metadata
-[paragraph] - Start and end-of-day GPS anchors, plus per-segment metadata
-Metadata includes:
-Terrain & surface type
-Environmental conditions
-Physiological state indicators (subjective observations only)
-Segment timing & expedition progression
-Optional GPS anchor references
-[paragraph] Purpose: Enables trajectory reconstruction, mapping, and SLAM evaluation while preserving analytical value. Metadata is stored separately to maintain the purity of visual data. Verification workflows confirm completeness and integrity prior to storage.
-[paragraph] Storage & Data Integrity
-[paragraph] - Videos stored unmodified in original capture format
-Dual storage: local and cloud
-[paragraph] Verification workflow ensures:
-Segment completeness
-Playability (uncompressed FHD)
-Metadata matches video segments
-[paragraph] Provenance & Verification ✅
-Chain of Custody: Every video segment is tracked from capture → local storage → cloud ingestion → distribution, with full logs of who handled each file and when.
-Hash Verification: SHA‑256 hashes generated at desktop ingestion allow buyers to confirm file integrity.
-Segment Integrity Checks: Ensure complete, playable segments that match metadata.
-Transparency: Vehicle-assisted or hitchhiked segments in extreme terrain are explicitly documented.
-[paragraph] Bottom line: Buyers can confirm that each file is exactly as captured in the field, fully auditable, and traceable.
-[paragraph] Single-Person, Single-Source Advantages
-[paragraph] - Complete traceability — fully documented segments
-Compliance-friendly — no multi-party ownership or consent ambiguity
+All extreme terrain segments, including arid deserts and dense urban zones, are augmented in the metadata to preserve analytical fidelity. Vehicle-assisted or hitchhiked stretches are explicitly documented for transparency.
+
+Camera & Data Modality
+Single forward-facing camera, no audio
+Raw FHD capture: optimizers, HDR, and in-camera stabilization disabled
+Consistent egocentric viewpoint for the entire expedition
+Metadata structure unchanging, with selective augmentation based on terrain or environmental context
+Pure visual input optimized for vision-based AI, robotics, and trajectory modeling
+
+GPS Anchoring & Metadata
+Start/end-of-day GPS anchors + per-segment metadata
+Metadata includes: terrain type, surface, environmental conditions, subjective physiological indicators, segment timing
+Supports trajectory reconstruction, mapping, and SLAM evaluation
+Maintained separately to preserve visual data integrity
+[Insert paragraph here: optional expansion on metadata consistency, augmentation, or documentation workflow]
+Data Integrity & Provenance ✅
+Chain of Custody: Every segment tracked from capture → local storage → cloud → distribution, with logs of handling and timestamps
+Hash Verification: Field-generated MD5 hashes provide an unbroken link from original capture to cloud/desktop storage
+Segment Integrity Checks: Ensures completeness, playability, and metadata alignment
+Fully auditable and legally compliant; single-person source simplifies licensing and traceability
+[Insert paragraph here: optional note about how prospective users/researchers can verify integrity themselves]
+Single-Person, Single-Source Advantages
+Complete traceability — fully documented, auditable segments
+Compliance-friendly — no multi-party consent ambiguity
 Uniform quality — consistent camera angle, metadata, and capture paradigm
 High signal, low noise — only meaningful content captured
-Simplified licensing & distribution — ready for research and AI model training
-[paragraph] Intended Use Cases
-[paragraph] - Egocentric perception & navigation
+Simplified licensing & distribution — ready for research, AI, and robotics applications
+[Insert paragraph here: optional note about licensing clarity, legal simplicity, or ease of integration]
+Intended Use Cases
+Egocentric perception & navigation
 Long-horizon trajectory modeling
 SLAM & visual localization evaluation
 Robotics terrain traversal & planning
 Human locomotion & fatigue modeling
 Environmental & geospatial analysis
 Robustness & domain generalization studies
-[paragraph] Limitations
-[paragraph] - Single-subject perspective
-GPS reflects consumer-grade device accuracy
-Real-world environmental variability is inherent
-Some desert segments (e.g., Atacama) may be vehicle-assisted or hitchhiked
-Designed for research, modeling, and benchmarking, not continuous commercial mapping
-[paragraph] Prospective Buyer Questions — Anticipated & Answered
-[paragraph] 1️⃣ Is this data real and high-quality?
-Yes — continuous field capture across Ecuador, Peru, Chile, and Argentina, FHD, event-driven, forward-facing egocentric video. Focus on desert/arid terrain with realistic human locomotion. Segments are sparse, high-information, and fully traceable.
-[paragraph] 2️⃣ Is it reliable and unaltered?
-Yes — files undergo desktop ingestion where SHA‑256 hashes are generated and logged. Integrity is fully verifiable for downstream AI and robotics applications.
-[paragraph] 3️⃣ Is it usable at scale?
-Yes — standardized files (FHD, 30 fps, MP4) with consistent naming and detailed metadata including GPS, terrain, environmental, and physiological observations. Ready for SLAM, trajectory modeling, and robotics pipelines.
-[paragraph] 4️⃣ What makes it unique?
-Long-horizon, single-person egocentric locomotion across natural terrain, including desert sections such as the Atacama. Vehicle-assisted or hitchhiked segments are documented in metadata. Preserves rare terrain transitions and human gait/fatigue patterns unavailable via scraping or synthetic data. Fully auditable and single-source.
-[paragraph] Contact & Licensing
-[paragraph] - Contact: Michael Dee — fieldwalk.data@gmail.com
-Licensing: Single-source, fully auditable dataset. Licensed for research, AI training, and robotics applications.
-Free sample access available for qualified researchers
-Commercial use requires explicit permission and licensing agreement
-[paragraph] About
-[paragraph] Created by Michael Dee — one person, one phone, one continuous expedition.
+Planetary-terrain analog research applications for specialized robotics or exploration studies
+[Insert paragraph here: optional elaboration on extreme-terrain or Mars-analog research potential]
+Contact & Licensing
+Contact: Michael Dee — fieldwalk.data@gmail.com
+Licensing: Single-source, fully auditable dataset
+Research/AI/robotics: free sample access for qualified researchers
+Commercial use: explicit permission & licensing agreement required
+About
+Created by Michael Dee — one person, one phone, one continuous expedition.
