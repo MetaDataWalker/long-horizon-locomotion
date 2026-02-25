@@ -167,20 +167,6 @@ Only transcripts released, timestamp-linked to video segments
 
 Ethical compliance: collected in public spaces, aligned with local laws
 
-
-Dataset Size
-
-Video: ~110 GB (raw FHD, 1-min clips)
-
-Audio transcripts: ~1 GB
-
-Screenshots: ~15 GB (EXIF GPS + altitude)
-
-Metadata: <1 GB JSON/CSV per segment
-
-Total: ~130 GB
-
-
 Quality Control Indicators
 
 Disturbance-driven adaptations preserved
