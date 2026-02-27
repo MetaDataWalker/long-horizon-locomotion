@@ -1,203 +1,251 @@
-MDW Expedition — Phase 1: Cerro Chacaltaya / El Alto Slopes, Bolivia
+MDW Expedition — Phase 1
+
+Cerro Chacaltaya / El Alto Slopes, Bolivia
+
 Overview
 
-Phase 1 captures one human subject — a 51-year-old, physically fit individual from the UK — living, moving, and thinking in a novel high-altitude environment. This first-person, longitudinal dataset is designed for AI, robotics, and human performance research, while faithfully documenting the lived experience of a single person adapting to new terrain, weather, and minimalist living conditions.
+MDW Phase 1 captures a single human subject — a 51-year-old, physically fit individual from the UK — living, moving, and making decisions in a novel high-altitude environment. The dataset is longitudinal, first-person, and recorded entirely in real-world conditions. It is designed for robotics, embodied AI, and human performance research, while remaining faithful to the lived reality of one person adapting to terrain, weather, fatigue, and minimalist living on a new continent.
 
-Location: mid-to-upper slopes of Cerro Chacaltaya, near El Alto (~4,100–4,250 m).
+This is not a staged experiment or laboratory simulation. It is a continuous, real-world capture of how one human operates day-to-day under physical and cognitive stress, with no scripted tasks and no artificial constraints.
 
-Varied terrain: inclines, declines, ridges, plateaus, rocky paths, loose gravel
+Primary setting: the mid-to-upper slopes of Cerro Chacaltaya, near El Alto, Bolivia (~4,100–4,250 m).
+This environment offers steep inclines, long declines, rocky paths, loose gravel, exposed plateaus suitable for sprinting and crawling, and quiet zones for cowboy camping, while remaining within walking distance (~45 minutes) of urban resupply.
 
-Quiet areas for cowboy camping and uninterrupted capture
+Purpose & Scope
 
-Access to town (~45 min walk) for resupply; urban/cultural segments optional
+The purpose of Phase 1 is to create a high-fidelity, first-person longitudinal dataset documenting how a single human system adapts physically and cognitively over time.
 
-Purpose: Capture a single, high-performing human subject navigating new terrain, testing physical and cognitive limits, and living minimally. Key elements:
+Core dimensions include:
 
-Physical performance: walking, running, sprinting, quadrupedal crawling across varied terrain
+Human locomotion and physical adaptation across varied terrain
 
-Cognitive adaptation: decision-making under fatigue, environmental stress, high-altitude exposure
+Cognitive decision-making under fatigue, altitude, and environmental stress
 
-Minimalist living: cowboy camping, lightweight gear, self-sufficiency
+Minimalist living through cowboy camping and lightweight self-sufficiency
 
-Optional urban/cultural capture: pedestrian flow, vehicle interactions, environmental immersion [only when naturally occurring]
+Interaction between exertion, recovery, environment, and daily decision cycles
+
+Optional urban segments (El Alto pedestrian movement, vehicle interaction, markets, cafés) are captured only when naturally encountered. These segments extend environmental diversity but do not dilute the dataset’s primary focus on terrain, movement, and adaptation.
+
+At its core, this dataset represents a day-in-the-life capture of one human, continuously observed across changing internal states and external conditions.
 
 Research Questions (Analyst-Focused)
 
-Designed for external analysts to extract insight from a single human subject:
+This dataset is designed so that external researchers can investigate questions such as:
 
-Cognitive-Physical Coupling: How do fatigue, environmental stress, and terrain variability influence decision-making?
+How do fatigue, altitude, and terrain variability influence real-world decision-making?
 
-Adaptive Locomotion: How does the body adjust gait, posture, and movement strategy across variable terrain and weather?
+How does gait, posture, and movement strategy adapt across terrain and weather over time?
 
-Endurance vs. Recovery: Patterns in performance, recovery, and fatigue during high-performance locomotion
+What patterns emerge between exertion, recovery, and subsequent performance?
 
-Minimalist Living Impact: Effects of cowboy-camping, off-grid survival, and lightweight living on cognition and resilience
+How does minimalist, off-grid living affect cognitive load and resilience?
 
-Environmental Interaction: How do altitude, temperature, surface type, and hazards affect physical and cognitive performance?
+How reliably can full-body mechanics be inferred from egocentric video alone?
 
-Segment-Level Dynamics: How do short-term activity segments (e.g., incline walks, sprints, quadrupedal crawl, urban navigation) influence subsequent states?
+How do short, discrete activity segments influence longer-term physical and cognitive states?
 
 Physical Locomotion & Testing
 
-Walking: brisk, terrain-adaptive, inclines, declines
+Physical movement is a core stressor in the dataset and is intentionally above average for the subject’s age.
 
-Running: uneven terrain, endurance-focused
+Captured locomotion modes include:
 
-Sprinting: short bursts exceeding typical age norms
+Walking: terrain-adaptive, incline/decline, load-bearing
 
-Quadrupedal Crawling: low-to-ground, full-body engagement for stability, proprioception, and muscular endurance
+Running: uneven terrain, endurance-oriented
 
-Torso: forward-leaning (~15–30 cm above ground)
+Sprinting: short, high-intensity bursts
 
-Limbs: alternating diagonal/lateral steps
+Quadrupedal locomotion: low-to-ground movement emphasizing stability, proprioception, and full-body engagement
 
-Core & balance: continuous adaptation
+Quadrupedal movement is characterized by:
 
-Speed/intensity: deliberate, endurance-focused
+Torso held low (approximately 15–30 cm above ground)
 
-Forward-facing capture is primary; camera can adjust slightly for cognitive/urban segments.
-Audio recordings: spontaneous reflections, environmental assessment, and off-the-cuff decision-making, not transcribed.
+Alternating diagonal and lateral limb coordination
+
+Continuous core stabilization and balance adjustment
+
+Deliberate pacing rather than speed optimization
+
+Movement occurs across all weather conditions where safe and is always paired with fatigue, pain, and environmental metadata.
+
+Audio notes may accompany movement to capture spontaneous assessment and decision-making. Audio remains untranscribed.
+
+🔬 Enhanced Validation: Occasional External Kinematic Reference
+
+To bridge first-person environmental observation with biomechanical analysis, the dataset includes strategically captured external video segments. These serve as ground-truth windows, enabling validation of gait, posture, and limb positioning inferred from egocentric footage.
+
+External capture is deliberately sparse and opportunistic, used only at moments of high analytical value so as not to disrupt the first-person narrative or decision flow.
+
+Methodology
+
+Static Tripod Shots
+At significant terrain features (steep inclines, loose gravel fields, flat plateaus), a lightweight tripod is placed approximately 5–10 meters from the subject. The subject traverses the terrain past the camera, yielding side-on or three-quarter views of full-body kinematics for 30–60 seconds.
+
+Dynamic Second-Person Shots
+When a second individual is present and does not influence environmental decision-making, they may capture dynamic tracking footage alongside the subject, providing longer-duration external kinematic sequences.
+
+Analytical Value
+
+These external segments allow researchers to:
+
+Correlate egocentric environmental context with external body mechanics
+
+Validate pose and gait estimation models derived from first-person video
+
+Extract discrete biomechanical reference points without motion-capture rigs
+
+Metadata Integration
+
+External segments are flagged within the standard segment schema:
+
+Field	Possible Values	Description
+external_view	none / tripod_static / second_person_dynamic	External camera presence
+external_distance	3m / 5m / 10m	Approximate camera distance
+external_angle	side / front / rear / 45_deg	Relative camera angle
+
+These clips function strictly as validation and calibration tools, not primary locomotion footage.
 
 Environment: Cerro Chacaltaya / El Alto Slopes
 
-Terrain: inclines, declines, ridges, plateaus, rocky paths, loose gravel
+The Phase 1 environment provides:
 
-Flat/gently sloped plateaus: camping, sprinting, walking, crawling
+Steep inclines and extended declines
 
-Quiet plateau areas for uninterrupted capture
+Rocky paths and loose gravel
 
-Optional urban segments: pedestrian flow, traffic interaction, market navigation — supplemental, naturally occurring
+Plateaus suitable for sprinting, crawling, and camping
+
+Quiet zones for uninterrupted capture
+
+Proximity to urban infrastructure without continuous urban noise
+
+Urban and cultural exposure occurs only when naturally encountered.
 
 Data Structure
 Start-of-Day Metadata
 
-Expedition day, location, timezone, day start
+Captured once per day:
 
-GPS coordinates & altitude
+Expedition day, location, timezone
 
-Terrain, elevation trend, infrastructure, surface type
+GPS coordinates and altitude
 
-Gear: footwear, pack, sleeping bag, clothing
+Terrain and elevation trend
 
-Physical/cognitive: fatigue, pain, mood, alertness, stress, sleep quality
+Infrastructure and surface type
 
-Environmental: temperature, light, weather, heat stress, water intake
+Gear state (footwear, pack, sleeping bag, clothing)
+
+Physical and cognitive state: fatigue, pain, mood, alertness, stress, sleep quality
+
+Environmental conditions: temperature, light, weather, heat stress, water status
 
 Notes
 
 Segment Metadata
 
-Event trigger, segment start/end, location
+Captured per activity segment:
 
-GPS coordinates & altitude for segment start and end
+Event trigger
+
+Segment start and end time
+
+GPS coordinates and altitude (start and end)
 
 Terrain, surface, hazards, motion type
 
-Physical/gait: gait changes, fatigue, pain, pack weight
+Gait changes, fatigue, pain
 
-Weather/environment: temperature, light, wind, heat/cold stress, water intake
+Weather and environmental exposure
 
-Cognitive/psychological: mood, alertness, stress, decision load
+Camera height, camera angle, FHD flag
 
-Gear/capture: camera angle, height, FHD, clothing
+Pack weight, clothing
 
-Nutrition/energy: optional food/water
+Optional nutrition and water
 
-Notes: qualitative observations
+Qualitative notes
 
 End-of-Day Metadata
 
-Day end, location, timezone
+Captured once per day:
 
-GPS coordinates & altitude
+Location and timezone
 
-Physical/cognitive: fatigue, pain, mood, alertness, stress
+GPS coordinates and altitude
 
-Environment: cumulative exposure
+Cumulative fatigue, pain, mood, alertness, stress
+
+Environmental exposure summary
 
 Gear condition
 
-Notes: reflections, deviations, outcomes
+End-of-day reflections
 
 Audio Notes
 
-Spontaneous reflections; not transcribed
+Audio notes capture off-the-cuff cognition, environmental reasoning, and decision-making as they occur. They remain audio-only and augment structured metadata rather than replacing it.
 
-Capture cognition, terrain assessment, and decision-making
+Data Governance, Capture & Robotics Focus
 
-Supplement metadata; optional in urban/cultural segments
+Forward-facing egocentric camera for locomotion and environmental interaction
 
-Data Governance, Forward-Facing Capture & Robotics Focus
+SHA-256 hashes applied to all files to ensure integrity, reproducibility, and collaboration readiness
 
-Forward-facing egocentric camera for locomotion, environmental analysis, and cognitive/physical observation
+Metadata, audio, and video stored in structured JSON/CSV formats
 
-SHA-256 hashes guarantee file integrity, reproducibility, and collaboration readiness
+Multimodal data enables robotics and AI teams to:
 
-Multimodal richness: metadata, audio, and video allow robotics/AI teams to:
+Train real-world navigation systems
 
-Train real-world navigation algorithms
+Model gait and posture under environmental stress
 
-Model gait and posture across variable terrain
+Study terrain–human interaction
 
-Study terrain and hazard interaction
+Simulate cognitive load during physical exertion
 
-Simulate environmental adaptation and cognitive load under physical stress
+Dataset reviewed daily for completeness and accuracy
 
-Metadata and audio/video stored in structured JSON/CSV formats
+Designed for immediate usability by robotics and embodied AI teams
 
-Dataset captured by a single subject; urban/cultural segments recorded opportunistically
+Future Phases (Conceptual Expansion)
 
-Daily review ensures completeness and accuracy
+Future phases are optional and will proceed only if they extend analytical value. Each phase introduces new environmental stressors while preserving methodological continuity for cross-phase comparison.
 
-Designed for instant usability by robotics/AI teams, with reproducible, high-fidelity, first-person data
+Potential environments include:
 
-Future Phases
+Nazca, Peru — hyper-arid desert terrain, thermal stress, long sightlines
 
-Potential future phases may explore:
+Atacama Desert, Chile — extreme aridity, sparse resources, elevation variability
 
-Nazca, Peru – arid terrain, desert navigation, cultural site observation
+Arica, Chile — coastal desert combined with dense urban interaction
 
-Atacama, Chile – extreme dry desert, varied elevation, sparse resources
+Sucre, Bolivia — mid-altitude urban navigation and routine formation
 
-Arica, Chile – coastal desert + urban environments, mixed terrain, pedestrian interactions
+Across all phases, core constants remain:
 
-Sucre, Bolivia – city-level cultural and pedestrian observations, mid-altitude testing
+Single-subject, first-person capture
 
-Each future phase may include:
+Structured daily and segment metadata
 
-Terrain adaptation
+Forward-facing camera orientation
 
-Cowboy camping / minimalist living
+GPS and altitude recorded for all days and segments
 
-Urban/cultural segment capture (selectively)
+SHA-256 file integrity
 
-Forward-facing + audio multimodal data
-
-SHA-256 hashed files for integrity
+Phase 1 stands as a complete dataset regardless of future expansion.
 
 Outcome
 
-Phase 1 produces a rich, longitudinal, multi-modal, first-person dataset of a single subject:
+Phase 1 delivers a longitudinal, multimodal, first-person dataset documenting how one physically capable human adapts cognitively and physically to a new, high-altitude environment through continuous real-world exposure.
 
-Cognitive adaptation and decision-making under fatigue
-
-Physical adaptation to terrain and environmental stress
-
-High-performance locomotion: walking, running, sprinting, quadrupedal crawl
-
-Cowboy-camping and minimalist living
-
-Optional urban/cultural segments in El Alto
-
-Audio reflections augment physical, cognitive, and environmental insights
-
-GPS coordinates and altitude captured for every day and segment
-
-Forward-facing + SHA-256 hashed files ensure high value for robotics, AI, and embodied cognition research
-
-Summary: This is the lived, first-person experience of one high-performing, fit human in a high-altitude, novel environment — captured so analysts and robotics teams can immediately leverage it for locomotion modeling, human-environment interaction, and longitudinal cognitive/physical analysis.
+The dataset is intended for direct use in research on locomotion modeling, embodied cognition, human–environment interaction, and AI systems grounded in reality rather than simulation.
 
 Contact
 
-For questions or access inquiries, contact:
+For access inquiries or collaboration:
 metadatawalker@gmail.com
