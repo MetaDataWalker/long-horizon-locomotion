@@ -1,203 +1,194 @@
-MetaDataWalker
-Provenance & Ownership
+MetaDataWalker (MDW) — Longitudinal, Multimodal Human Locomotion Dataset
 
-MetaDataWalker was conceived, designed, and executed solely by the dataset owner, who is also the only human subject captured. No third-party collectors, contractors, institutions, or external funders were involved at any stage.
+Owner / Creator: Michael Dee
+Contact: metadatawalker@gmail.com
 
-Intellectual Property: All video, audio, and metadata belong exclusively to the creator. No co-ownership, institutional claim, or licensing encumbrance exists.
+Dataset Type: First-person, longitudinal, multimodal video + audio + structured metadata
+Scope: 5 phases, 6 months each, across Peru, Chile, Argentina, Bolivia
+Subject: Single 51-year-old physically fit human (dataset owner)
+Use Cases: Robotics, embodied AI, biomechanics, VR/AR simulation, human adaptation research
 
-Subject Consent: The dataset owner provides explicit consent for collection, storage, and commercial licensing of all data.
+1. Dataset Overview
 
-Institutional / Ethics Note: No academic, governmental, or institutional framework was involved; no ethics review was conducted or required.
+MetaDataWalker (MDW) is a longitudinal, multimodal dataset capturing real-world human adaptation to terrain, altitude, and environmental stress. It includes:
 
-Data Origin: All data was captured first-person using personal equipment. No third-party datasets or externally sourced content are included.
+Egocentric video (FHD) capturing all naturally occurring movement
 
-Compliance Notes:
+Audio, recorded opportunistically, documenting cognition, environmental reasoning, and reflections
 
-EU AI Act: Buyers using this dataset to train AI models should note disclosure obligations under Article 10.
+Structured metadata, including location, terrain, motion, fatigue, gear, weather, psychological state, and nutrition/energy
 
-GDPR: The dataset contains health-adjacent and biometric metadata for a single identified individual, with explicit commercial consent granted.
+High-intensity validation clips, recorded only when such conditions naturally occur, for precise biomechanics and AI modeling
 
-Expedition Overview
+Scope: 5 phases of 6 months each, providing longitudinal coverage in extreme and diverse terrains.
 
-MetaDataWalker (MDW) is a longitudinal, first-person dataset capturing continuous physical, cognitive, and environmental adaptation across multiple high- and mid-altitude terrains in South America.
+Unique Value:
 
-The expedition tracks a 51-year-old physically fit human subject from the UK through five phases across four countries: Peru, Chile, Argentina, and Bolivia. Each phase lasts up to six months. The subject is based in one primary location per phase, conducting daily cowboy camping while walking to nearby towns for resupply (~30–75 min). At the end of each phase, the subject walks to the next country, capturing cross-border movement.
+First-person, longitudinal, multimodal data in extreme environments
 
-Expedition Bases & Phases
+Captures authentic human adaptation under variable conditions
 
-Phase 1: Nazca hills, Peru – warm desert hills, sandy and rocky surfaces
+Detailed metadata supports AI, robotics, VR/AR, and biomechanics applications
 
-Phase 2: Atacama hills, Chile – arid highlands, rocky slopes, loose gravel
+Audio/video recording is opportunistic, reflecting real-world activity rather than pre-planned actions
 
-Phase 3: Puna grasslands, Argentina – high-altitude grasslands, volcanic outcrops, uneven terrain
+Daily Lifestyle: Cowboy camping, self-sufficient off-grid living, walking 30–75 minutes daily for resupply. Movement is determined by terrain, environmental conditions, and subject state.
 
-Phases 4 & 5: Cerro Chacaltaya & Sajama foothills, Bolivia – high-altitude slopes, rocky paths, extreme elevation
+2. Expedition Summary
+Phase	Country	Base Region	Terrain	Duration	Key Features
+1	Peru	Nazca Hills	Desert hills, sandy & rocky	6 months	Longitudinal off-grid capture; opportunistic recording of physical and environmental adaptation; multimodal video/audio/metadata
+2	Chile	Atacama Highlands	Arid plateau, rocky slopes	6 months	Longitudinal off-grid capture; opportunistic recording; multimodal data; high-altitude exposure
+3	Argentina	Puna Grasslands	Volcanic outcrops, uneven terrain	6 months	Longitudinal off-grid capture; opportunistic recording; multimodal data; uneven terrain exposure
+4	Bolivia	Cerro Chacaltaya	High-altitude slopes, rocky paths	6 months	Longitudinal off-grid capture; opportunistic recording; multimodal data; extreme altitude exposure
+5	Bolivia	Sajama Foothills	High-altitude foothills, volcanic terrain	6 months	Longitudinal off-grid capture; opportunistic recording; multimodal data; cross-border exposure
 
-Note: Depending on field conditions, accessibility, and research priorities, Phase 4 may be conducted entirely at Cerro Chacaltaya for 6 months, or split approximately 3 months at Cerro Chacaltaya and 3 months at the Sajama foothills. This ensures continuous high-altitude data capture while optimizing safety, logistics, and connectivity.
+Expedition Notes:
 
-At each base, terrain is selected to support physical testing while remaining within walking distance of a town for resupply and optional urban observation. Cowboy camping is the primary living mode, maintaining a minimalist, off-grid lifestyle.
+Each phase captures real-world, adaptive human movement, reflecting terrain, fatigue, and environmental conditions.
 
-Audio Capture
+Cowboy camping provides authentic off-grid environmental exposure.
 
-Audio is captured opportunistically to document cognition, reflections, and environmental reasoning. Augmentation occurs only during high-intensity, urban, or unusual sessions, ensuring full multimodal context for research while avoiding unnecessary continuous recording.
+Audio/video capture is opportunistic, augmented only during rare high-effort or urban segments.
 
-Physical Locomotion & High-Intensity Exercise
+High-intensity sessions are recorded when they naturally occur, sometimes using tripod or third-party observation for validation.
 
-Physical movement is a core focus and deliberately above average for the subject’s age.
+3. Audio Capture & Physical Locomotion
 
-Captured Locomotion Modes:
+Audio: Captured opportunistically to record cognition, environmental reflections, and reasoning.
 
-Walking: terrain-adaptive, incline/decline, load-bearing
+Physical Locomotion:
 
-Running: uneven terrain, endurance-oriented
+The dataset captures a range of naturally occurring movement, without pre-planning
 
-Sprinting: short, high-intensity bursts
+Quadrupedal movement, walking, running, or other movements occur as conditions dictate
 
-Quadrupedal locomotion: low-to-ground, emphasizing stability, proprioception, and full-body engagement
+High-Intensity Validation: Recorded only when naturally occurring, ensuring data integrity for AI, robotics, or biomechanics
 
-Quadrupedal Characteristics:
+4. Core Dimensions & Research Questions
 
-Torso held low (≈15–30 cm above ground)
+Dimensions Captured:
 
-Alternating diagonal and lateral limb coordination
+Human locomotion under variable terrain and environmental stress
 
-Continuous core stabilization and balance adjustment
-
-Deliberate pacing rather than speed optimization
-
-High-Intensity Validation:
-Sessions are occasionally captured via tripod or third-party observer to provide precise kinetic and biomechanical reference points. These clips ensure reliability for robotics, AI, and biomechanical modeling.
-
-Core Dimensions
-
-Human locomotion and adaptation across varied terrain
-
-Cognitive adaptation under fatigue, altitude, and environmental stress
-
-Minimalist living through cowboy camping and lightweight self-sufficiency
+Cognitive adaptation under fatigue, altitude, and off-grid living
 
 Interaction between exertion, recovery, environment, and daily activity cycles
 
-Optional urban segments captured only when naturally encountered
+Opportunistic audio/video capture for multimodal context
 
-Audio augmentation and continuous multimodal capture during key sessions
+Kinetic and biomechanical validation as it naturally occurs
 
-Kinetic and biomechanical validation during high-intensity activity
+Research Questions Examples:
 
-At its core, MDW represents a day-in-the-life capture, continuously observed across changing internal states and external conditions.
+How does fatigue and terrain variability affect gait and posture?
 
-Research Questions
+How are exertion, recovery, and performance correlated?
 
-Researchers can explore:
+How does cognitive load evolve under minimalist, off-grid living?
 
-Effects of fatigue, altitude, and terrain variability on locomotion and physical adaptation
+Can full-body mechanics be inferred from first-person video and metadata?
 
-Gait, posture, and movement strategy adaptation over time
+How do naturally occurring high-effort movements affect biomechanical efficiency and cognitive load?
 
-Patterns between exertion, recovery, and performance
+5. Environment & Terrain
+Location	Terrain	Surface	Altitude / Stress	Notes
+Nazca hills, Peru	Desert hills	Sandy & rocky	Moderate	Opportunistic movement capture; inclines, dry, loose surfaces
+Atacama hills, Chile	Arid highlands	Rocky slopes, loose gravel	High	Sparse vegetation, wind exposure; adaptive activity capture
+Puna grasslands, Argentina	Volcanic outcrops	Uneven grasslands	High	Opportunistic activity capture; endurance and adaptive movement
+Cerro Chacaltaya, Bolivia	Slopes	Rocky paths	Extreme	Opportunistic high-effort activity under extreme altitude
+Sajama foothills, Bolivia	Foothills, volcanic terrain	Mixed rocky	Extreme	Cross-border adaptive movement captured opportunistically
+6. Metadata Structure
 
-Cognitive load and resilience under minimalist, off-grid living
+Sections & Variables:
 
-Accuracy of full-body mechanics inferred from first-person video and audio
+Section	Key Variables
+Context & Timing	Date, expedition day, country, region, nearest town, event trigger, segment start/end
+Environment & Terrain	Elevation trend, slope, terrain type, surface type/condition, hazards, infrastructure, motion type
+Physical & Gait	Gait changes, fatigue (1–5), pain/issues, footwear condition, pack weight, vitals
+Weather & Stressors	Temperature, light, weather, heat/cold stress (1–5), hydration, wind speed/direction
+Cognitive / Psychological	Mood (1–5), alertness (1–5), stress level (1–5), decision load, sleep/rest
+Gear / Recording	Camera height/angle, FHD, clothing, poles/GPS/phone, other equipment
+Nutrition / Energy (optional)	Food consumed, energy level, electrolytes/hydration
+Notes / Observations	Decisions, environmental/social context, rare events
 
-Correlations between high-intensity movements, biomechanical efficiency, and cognitive load
+Example Metadata JSON:
 
-Environment & Terrain
+{
+  "date": "2026-03-06",
+  "expedition_day": 145,
+  "country": "Peru",
+  "region": "Nazca Hills",
+  "nearest_town": "Nazca",
+  "event_trigger": "steep incline, fatigue high",
+  "segment_start": "08:15",
+  "segment_end": "08:45",
+  "terrain": {
+    "elevation_trend": "uphill",
+    "terrain_type": "mixed",
+    "surface_type": "rocky",
+    "surface_condition": "loose",
+    "motion_type": "walk"
+  },
+  "physical": {
+    "gait_changes": "shortened stride, slower pace",
+    "fatigue": 4,
+    "pain": "mild knee discomfort",
+    "pack_weight": 12
+  },
+  "weather": {
+    "temperature": 22,
+    "light": "morning bright",
+    "wind": 10
+  },
+  "cognitive": {
+    "mood": 4,
+    "alertness": 3,
+    "stress": 2,
+    "decision_load": "medium",
+    "sleep_quality": 4
+  },
+  "gear": {
+    "camera_height": "1.6m",
+    "camera_angle": "forward",
+    "FHD": true,
+    "clothing": "layers, breathable"
+  }
+}
+7. Commercial Value & Use Cases
 
-Each phase offers distinct terrain, altitude, and access to resupply towns:
+Rare longitudinal data: 5 phases × 6 months each
 
-Nazca hills, Peru – desert hills, sandy and rocky surfaces
+Multimodal & structured: Video + audio + rich metadata
 
-Atacama hills, Chile – arid highlands, loose gravel, plateau sections
+Opportunistic, adaptive movement: Captures authentic behavior under real-world conditions
 
-Puna grasslands, Argentina – grasslands, volcanic outcrops, uneven terrain
+Extreme terrains: Desert, highlands, grasslands, volcanic, high-altitude
 
-Cerro Chacaltaya & Sajama foothills, Bolivia – high-altitude slopes, rocky paths, extreme elevation
+Immediate integration: Robotics, AI, VR/AR, biomechanics
 
-High-intensity training areas are carefully chosen for tripod or third-party capture without interfering with natural locomotion.
+Buyer-Ready Use Cases:
 
-Data Structure
+Robotics locomotion modeling
 
-Start-of-Day Metadata:
+AI embodied cognition research
 
-Phase and expedition day, GPS coordinates, altitude, terrain trends
+VR/AR environmental simulation
 
-Gear, clothing, physical and cognitive state (fatigue, pain, mood, alertness, stress, sleep quality)
+Biomechanics and wearable technology development
 
-Environmental conditions: temperature, light, weather, water status
+8. Licensing & Commercial Use
 
-Segment Metadata:
+Full ownership: All video, audio, and metadata belong to creator
 
-Event triggers, start/end times, GPS coordinates
+Commercial licensing available: Non-exclusive or exclusive deals
 
-Terrain type, hazards, motion type, gait changes, fatigue, pain
+Explicit subject consent: Dataset owner is the subject, cleared for commercial use
 
-Camera height/orientation, pack weight, clothing, optional nutrition/hydration
+Preview available: Buyers encouraged to request sample clips and metadata
 
-Tripod/third-party capture flag for high-intensity sessions
+9. Contact
 
-Audio augmentation flag if required
+For dataset access, licensing, or collaboration:
+Email: metadatawalker@gmail.com
 
-End-of-Day Metadata:
-
-Location, GPS, cumulative fatigue/pain, mood, alertness, stress
-
-Environmental exposure summary, gear condition, reflections
-
-Audio notes capturing cognition and environmental reasoning
-
-All data is timestamped and linked across phases for longitudinal analysis.
-
-Metadata & Capture
-
-Forward-facing egocentric camera captures locomotion and environment
-
-Audio recorded selectively for multimodal context
-
-SHA-256 hashes applied for integrity and reproducibility
-
-Structured storage in JSON/CSV formats
-
-Enables:
-
-Real-world navigation system training
-
-Gait and posture modeling under environmental stress
-
-Terrain-human interaction studies
-
-Cognitive load simulation during exertion
-
-Biomechanical analysis of high-intensity exercise
-
-Governance
-
-Daily review for completeness and accuracy
-
-Cross-phase consistency maintained
-
-Structured for immediate use by robotics and embodied AI teams
-
-All audio, video, and metadata handled with strict integrity and privacy protocols
-
-Outcome
-
-MetaDataWalker delivers a longitudinal, multimodal, first-person dataset documenting how a physically capable human adapts cognitively and physically to new environments across five phases, up to six months each.
-
-Intended research:
-
-Locomotion modeling under real-world conditions
-
-Embodied cognition and adaptive behavior
-
-Human–environment interaction
-
-Robotics and AI systems grounded in reality
-
-Kinetic and biomechanical modeling of high-intensity exertion
-
-Provides a unique continuous capture of a human navigating terrain, altitude, climate, and fatigue while maintaining self-sufficiency and structured observation.
-
-Contact
-
-For access inquiries or collaboration: metadatawalker@gmail.com
+Continue generating
